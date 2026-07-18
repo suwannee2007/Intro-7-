@@ -1,0 +1,15 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', Tahoma, Verdana, sans-serif; }
+body { background-color: #f0f2f5; color: #333; line-height: 1.6; padding: 20px; }
+.container { max-width: 800px; margin: 0 auto; background: #ffffff; padding: 40px; border-radius: 12px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08); }
+header { text-align: center; padding-bottom: 20px; border-bottom: 2px solid #eaeaea; margin-bottom: 30px; }
+h1 { color: #1a365d; font-size: 2em; margin-bottom: 10px; }
+header p { color: #666; font-size: 1.1em; }
+section { margin-bottom: 35px; padding: 25px; background: #f8fafc; border-left: 5px solid #3182ce; border-radius: 6px; }
+h2 { color: #2b6cb0; margin-bottom: 15px; font-size: 1.4em; border-bottom: 1px dashed #cbd5e1; padding-bottom: 8px; }
+.info-list p { margin-bottom: 10px; font-size: 1.05em; }
+.skill-container { margin-top: 15px; }
+.skill-tag { display: inline-block; background: #ebf8ff; color: #2b6cb0; border: 1px solid #bee3f8; padding: 8px 18px; border-radius: 20px; margin: 5px 5px 5px 0; font-weight: bold; font-size: 0.95em; }
+ul { margin-top: 15px; padding-left: 20px; }
+ul li { margin-bottom: 8px; }
+.contact-info p { margin-bottom: 12px; font-size: 1.05em; }
+footer { text-align: center; margin-top: 40px; padding-top: 20px; border-top: 1px solid #eaeaea; font-size: 0.9em; color: #888; }

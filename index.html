@@ -31,5 +31,9 @@
             <p>&copy; 2026 สุวรรณี ทองบ่อ - จัดทำเพื่อการนำเสนอ Project รายวิชา</p>
         </footer>
     </div>
+    <script>
+        fetch('skill.html').then(r => r.text()).then(d => { document.getElementById('skill-content').innerHTML = d; });
+        fetch('contact.html').then(r => r.text()).then(d => { document.getElementById('contact-content').innerHTML = d; });
+    </script>
 </body>
 </html>
